@@ -6,21 +6,19 @@ body {
 span {
     color: red;
     letter-spacing: -0.3rem;
+    font-weight: 600;
 }
 .content {
     text-align: center;
-    padding-top: 47%;
+    padding-top: 40%;
     font-size: 2em;
 }
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: black;
-}
+.navbar-default .navbar-toggle .icon-bar,
 .navbar-default .navbar-toggle:hover {
     background-color: white;
+}
+.navbar-default .navbar-toggle {
+    border-color: black;
 }
 .navbar-default .navbar-nav > li > a:hover {
     color: red;
@@ -41,7 +39,7 @@ span {
     border-radius: 4px;
 }
 h1 {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 .btn {
     color: white;
@@ -51,7 +49,6 @@ h1 {
 .btn:hover {
     color: red;
     background-color: white;
-    border-color: black;
 }
 hr {
     border: 0;
